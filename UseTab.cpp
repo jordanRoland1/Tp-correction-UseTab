@@ -37,7 +37,7 @@ void Usetab::modifier()
 
 int Usetab::lire(int cases)
 {
-	return tab[cases];
+	return tab[cases-1];
 }
 
 void Usetab::afficher()
@@ -57,7 +57,7 @@ void Usetab::afficher()
 			max = tab[i];
 		}
 	}
-
+	std::cout << std::endl;
 }
 
 
