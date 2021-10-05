@@ -7,13 +7,11 @@ int main()
 {
 	int cases;
 	int valeurs;
-
-	// modif de code 
 	Usetab use;
 	use.afficher();
 	std::cout << std::endl << "Voici la valeurs minimale : " << use.minimum() << std::endl;
 	std::cout << "Voici la valeurs maximale : " << use.maximum() << std::endl;
-	std::cout << "Veillez saisir 10 valeurs" << std::endl;				// demande et écrit dans le tableau
+	std::cout << "Veillez saisir 10 valeurs" << std::endl;
 	use.modifier();
 	use.afficher();
 	std::cout << "Quelle case voulez-vous afficher ?" << std::endl;
