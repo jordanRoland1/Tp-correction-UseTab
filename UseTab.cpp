@@ -43,7 +43,7 @@ int Usetab::lire(int cases)
 void Usetab::afficher()
 {
 
-	std::cout << "tableau : ";				// affichage tableau 2 
+	std::cout << "tableau : ";
 	for (int i(0); i<10 - 0; ++i)
 	{
 		std::cout << " || " << tab[i];
